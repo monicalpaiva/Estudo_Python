@@ -11,6 +11,7 @@ peso = 83 </br>
 print("Meu nome é", nome, "com idade", idade, "e peso", 83,".") </br>
 
 """
+
 Tipos primitivos e saída de dados
 
 str => string
@@ -20,6 +21,7 @@ int => inteiro
 float => flutuante
 
 bool => boleano
+
 """
 
 num01 = int(input("digite um numero")) </br>
@@ -31,7 +33,8 @@ print("a soma entre {} e {} vale: {}".format(num01, num02, soma)) </br>
 numero = input("digite algo") </br>
 print(numero.isupper()) </br>
 
-"""
+""" 
+
 Operadores aritméticos
 
 *   Soma +
@@ -53,6 +56,7 @@ Ordem de procedencia
 => +-
 
 """
+
 print(pow(5,2))
 
 nome=input("Qual seu nome?") </br>
@@ -109,14 +113,15 @@ raiz = math.sqrt(numero) </br>
 print("A raiz de {} é {}" .format(numero, math.ceil(raiz))) </br>
 
 """
+
 SAÍDA: </br>
 digite um numero: 35 </br>
 A raiz de 35 é 6 </br>
+
 """
 
 import random </br>
 
 num = random.randint(1,10) </br>
 print (num) </br>
-
 -> saída será um numero aleatório de 1 a 10
