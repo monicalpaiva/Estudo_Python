@@ -8,7 +8,9 @@ nome = "Monica" </br>
 idade = 35 </br>
 peso = 83 </br>
 
-print("Meu nome é", nome, "com idade", idade, "e peso", 83,".") </br>
+print("Meu nome é", nome, ", com idade ", idade, " e peso ", 83,".") </br>
+
+-> saída: Meu nome é Monica, com idade 35 e peso 83. </br>
 
 """
 
@@ -68,6 +70,7 @@ print("Olá,{:=^20}!" .format(nome)) </br>
 print('='*20) </br>
 
 """
+
 saída:
 Qual seu nome?monica </br>
 Olá,monica              ! </br>
