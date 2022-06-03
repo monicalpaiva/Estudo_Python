@@ -51,17 +51,19 @@ Ordem de procedencia
 => *; / ; // ; % 
  
 => +-
+
 """
 print(pow(5,2))
 
-nome=input("Qual seu nome?")
-print("Olá,{:20}!" .format(nome))
-print("Olá,{:>20}!" .format(nome))
-print("Olá,{:<20}!" .format(nome))
-print("Olá,{:^20}!" .format(nome))
-print("Olá,{:=^20}!" .format(nome))
-print('='*20)
+nome=input("Qual seu nome?") </br>
+print("Olá,{:20}!" .format(nome)) </br>
+print("Olá,{:>20}!" .format(nome)) </br>
+print("Olá,{:<20}!" .format(nome)) </br>
+print("Olá,{:^20}!" .format(nome)) </br>
+print("Olá,{:=^20}!" .format(nome)) </br>
+print('='*20) </br>
 
+"""
 saída:
 Qual seu nome?monica
 Olá,monica              !
@@ -69,7 +71,7 @@ Olá,              monica!
 Olá,monica              !
 Olá,       monica       !
 Olá,=======monica=======!
-
+""""
 
 num01 = int(input("digite um numero:"))
 num02 = int(input("digite outro numero:"))
