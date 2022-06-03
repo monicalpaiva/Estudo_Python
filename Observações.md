@@ -65,57 +65,58 @@ print('='*20) </br>
 
 """
 saída:
-Qual seu nome?monica
-Olá,monica              !
-Olá,              monica!
-Olá,monica              !
-Olá,       monica       !
-Olá,=======monica=======!
-""""
+Qual seu nome?monica </br>
+Olá,monica              ! </br>
+Olá,              monica! </br>
+Olá,monica              ! </br>
+Olá,       monica       ! </br>
+Olá,=======monica=======! </br>
+"""
 
-num01 = int(input("digite um numero:"))
-num02 = int(input("digite outro numero:"))
-soma = num01 + num02
-multiplicacao = num01 * num02
-divisao = num01 /num02
-divisaointeira = num01//num02
-potencia = num01**num02
-print("A soma vale {}, \n a multiplicação vale {} \n e a divisão vale {:.2f}" .format(soma, multiplicacao, divisao), end=' ')
+num01 = int(input("digite um numero:")) </br>
+num02 = int(input("digite outro numero:")) </br>
+soma = num01 + num02 </br>
+multiplicacao = num01 * num02 </br>
+divisao = num01 /num02 </br>
+divisaointeira = num01//num02 </br>
+potencia = num01**num02 </br>
+print("A soma vale {}, \n a multiplicação vale {} \n e a divisão vale
+{:.2f}" .format(soma, multiplicacao, divisao), end=' ') </br>
 print("A divisão inteira vale {} \n e a potência vale {}" .format(divisaointeira, potencia))
-#########################################
 
 ## UTILIZANDO MÓDULOS
 
-import "class"
-From "class" import "subclass"
+import "class"</br>
+From "class" import "subclass"</br>
 
-math
-ceil -> arredondar para cima
-floor -> arredondar para baixo
-trunc -> truncamneto
-pow -> potencia
-sqrt -> raiz quadrada
-factorial -> fatorial
+math</br>
+ceil -> arredondar para cima </br>
+floor -> arredondar para baixo </br>
+trunc -> truncamneto </br>
+pow -> potencia </br>
+sqrt -> raiz quadrada </br>
+factorial -> fatorial </br>
 
-import math 
-From math import sqrt
-From math import sqrt,ceil
+import math  </br>
+From math import sqrt </br>
+From math import sqrt,ceil </br>
 
 https://docs.python.org/3/library/index.html
 
-import math
-numero = int(input("digite um numero: "))
-raiz = math.sqrt(numero)
-print("A raiz de {} é {}" .format(numero, math.ceil(raiz)))
+import math </br>
+numero = int(input("digite um numero: ")) </br>
+raiz = math.sqrt(numero) </br>
+print("A raiz de {} é {}" .format(numero, math.ceil(raiz))) </br>
 
-SAÍDA:
-digite um numero: 35
-A raiz de 35 é 6
-########################
+"""
+SAÍDA: </br>
+digite um numero: 35 </br>
+A raiz de 35 é 6 </br>
+"""
 
-import random
+import random </br>
 
-num = random.randint(1,10)
-print (num)
+num = random.randint(1,10) </br>
+print (num) </br>
 
 -> saída será um numero aleatório de 1 a 10
