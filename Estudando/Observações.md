@@ -1,7 +1,5 @@
 # **Python 3 – Mundo 1**
-"""
-PRIMEIROS PASSOS
-"""
+## PRIMEIROS PASSOS
 print("Olá, mundo")
 nome = input("Qual seu nome?")
 print("É um prazer te conhecer, "+ nome)
@@ -68,7 +66,6 @@ print('='*20)
 
 """
 saída:
-
 ====================
 Qual seu nome?monica
 Olá,monica              !
@@ -89,3 +86,39 @@ potencia = num01**num02
 print("A soma vale {}, \n a multiplicação vale {} \n e a divisão vale {:.2f}" .format(soma, multiplicacao, divisao), end=' ')
 print("A divisão inteira vale {} \n e a potência vale {}" .format(divisaointeira, potencia))
 #########################################
+
+## UTILIZANDO MÓDULOS
+
+import "class"
+From "class" import "subclass"
+
+math
+ceil -> arredondar para cima
+floor -> arredondar para baixo
+trunc -> truncamneto
+pow -> potencia
+sqrt -> raiz quadrada
+factorial -> fatorial
+
+import math 
+From math import sqrt
+From math import sqrt,ceil
+
+https://docs.python.org/3/library/index.html
+
+import math
+numero = int(input("digite um numero: "))
+raiz = math.sqrt(numero)
+print("A raiz de {} é {}" .format(numero, math.ceil(raiz)))
+
+SAÍDA:
+digite um numero: 35
+A raiz de 35 é 6
+########################
+
+import random
+
+num = random.randint(1,10)
+print (num)
+
+-> saída será um numero aleatório de 1 a 10
